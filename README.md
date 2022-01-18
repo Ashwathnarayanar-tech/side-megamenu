@@ -167,7 +167,6 @@ The Side Mega-Menu app provides block responsible for displaying menu and submen
         {"name": "EV System", "url": "/car-parts/ev-system"},
         {"name": "Exhaust System", "url": "/car-parts/exhaust-system"}
       ]
-    }
 ```
 
 ## Customization
@@ -196,7 +195,7 @@ Use the below mentioned CSS handles to customize the app according to your store
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td><a href="https://github.com/anubhav-parihar-work"><img src="https://avatars.githubusercontent.com/u/51150543?v=4" width="100px;" alt=""/><br /><sub><b>Anubhav Parihar</b></sub></a><br />></td>    
+    <td><a href="https://github.com/anubhav-parihar-work"><img src="https://avatars.githubusercontent.com/u/51150543?v=4" width="100px;" alt=""/><br /><sub><b>Anubhav Parihar</b></sub></a><br /></td>    
   </tr>
 </table>
 
