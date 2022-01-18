@@ -1,0 +1,168 @@
+.modelTabWrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+.modelTabWrapper .tabList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px dashed #d8d8d8;
+    border-top: 1px dashed #d8d8d8;
+    flex-wrap: wrap;
+}
+.tabContent {
+    width: 70%;
+    min-width: 700px;
+    padding: 0.5rem;
+}
+.tabListItem {
+    padding: 15px 20px;
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 5px;
+}
+.tabListItem:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+.tabList {
+    padding: 0.5rem;
+    width: 30%;
+    min-width: 300px;
+    border-right: 1px solid #ddd;
+}
+.tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabListItem a {
+    color: #000000;
+    text-decoration: none;
+}
+.tabListItem a:hover {
+    color: #c32323;
+}
+.tabListActive a {
+    color: #c32323;
+    font-weight: 600;
+}
+.tabContentContainer {
+    padding: 1.5rem;
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+}
+.modelRange {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.modelList {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+}
+.carImage {
+    width: 175px;
+    height: auto;
+}
+.modelTitle {
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.modelAnchor {
+    text-decoration: none;
+    color: #000;
+}
+.modelAnchor:hover {
+    color: #c32323;
+}
+
+
+/*  Megamenu Css */
+.menuHeading h2{
+    padding: 0.5rem 0;
+    margin: 0;
+}
+.megamenuContentWrapper {
+    display: none;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    position: absolute;
+    max-width: 1300px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.menuItemWrapper:hover .mainMenuTitle {
+    color: #c32323;
+}
+
+.menuItemWrapper:hover .megamenuContentWrapper {
+    display: block;
+}
+.menuList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    flex-grow: 1;
+}
+.categoryLink {
+    color: #000000;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    align-self: flex-start;
+}
+.categoryLink span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transition: left .2s cubic-bezier(0.4,0,0.2,1),width .2s cubic-bezier(0.4,0,0.2,1);
+    transition: left .2s cubic-bezier(0.4,0,0.2,1),width .2s cubic-bezier(0.4,0,0.2,1);
+    width: 0;
+    height: 1px;
+    margin-top: -6px;
+    background: #000;
+}
+.categoryLink:hover span:after {
+    left: 0;
+    width: 100%;
+}
+.mainMenuTitle {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+.subMenuWrapper {
+    display: flex;
+    flex-direction: row;
+    max-height: 380px;
+}
+.menuImageWrapper {
+    padding: 0.5rem;
+    border-left: 1px solid #ddd;
+}
+.menuImage {
+    max-width: 250px;
+}

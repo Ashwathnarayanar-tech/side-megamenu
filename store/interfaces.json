@@ -1,0 +1,10 @@
+{
+    "side-mega-menu": {
+        "component": "SideMegaMenu",
+        "composition": "children"
+    },
+    "sub-menu-level-two": {
+        "component": "VerticalMenu",
+        "composition": "children"
+    }
+}
